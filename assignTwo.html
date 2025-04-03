@@ -9,17 +9,17 @@
 <body id="boddy">
     <div>
         <div class="header">
-            <img src="images/logo.png">
+            <img class="img3" src="images/logo.png">
             <button class="butt1" onclick="changeColor()"><img id="img1" src="images/icon-sun.png"></button>
         </div>
 
         <div class="bod">
             <div class="bod-head">
-                <h4>Extensions List</h4>
+                <h4 class="Exlist">Extensions List</h4>
                 <div class="buttons">
-                    <button class="butt2">All</button>
-                    <button class="butt2 hide-inactive">Active</button>
-                    <button class="butt2 hide-active">Inactive</button>
+                    <button onclick="showAll()" class="butt2">All</button>
+                    <button onclick="active()" class="butt2 hide-inactive">Active</button>
+                    <button onclick="inactive()"class="butt2 hide-active">Inactive</button>
                 </div>
             </div>
             <div class="bod-bod">
@@ -27,13 +27,13 @@
                     <img src="images/logo-devlens.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">DevLens</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Quickly inspect page layouts and visualize element boundaries.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -42,13 +42,13 @@
                     <img src="images/logo-style-spy.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">StyleSpy</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Instantly analyze and copy CSS from any webpage element.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -57,13 +57,13 @@
                     <img src="images/logo-speed-boost.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">SpeedBoost</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Optimizes browser resource usage to accelerate page loading</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -72,13 +72,13 @@
                     <img src="images/logo-json-wizard.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">JSONWizard</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Formats, validates, and prettifies JSON responses in-browser.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -87,13 +87,13 @@
                     <img src="images/logo-tab-master-pro.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">TabMaster Pro</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Organizes browser tabs into groups and sessions</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -102,13 +102,13 @@
                     <img src="images/logo-viewport-buddy.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">ViewportBuddy</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Simulates various screen resolutions directly within the browser.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -117,13 +117,13 @@
                     <img src="images/logo-markup-notes.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">Markup Notes</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Enables annotation and notes directly onto webpages for collaborative debugging.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -132,13 +132,13 @@
                     <img src="images/logo-grid-guides.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">GridGuides</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Overlay customizable grids and alignment guides on any webpage.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -147,13 +147,13 @@
                     <img src="images/logo-palette-picker.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">Palette Picker</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Instantly extracts color palettes from any webpage.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -162,13 +162,13 @@
                     <img src="images/logo-link-checker.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">LinkChecker</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Scans and highlights broken links on any page.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -177,13 +177,13 @@
                     <img src="images/logo-dom-snapshot.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">DOM Snapshot</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Capture and export DOM structures quickly.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -192,13 +192,13 @@
                     <img src="images/logo-console-plus.png" class="img2">
                     <div class="h5pp">
                         <h5 class="h55">ConsolePlus</h5>
-                        <p class="pp">Text Text Text Text Text Text Text Text Text Text Text</p>
+                        <p class="pp">Enhanced developer  console with advanced filtering and logging.</p>
                     </div>
                     <div class="buts">
-                        <button class="butt3">Remove</button>
+                        <button  class="butt3">Remove</button>
 
                         <label class="toggle-switch">
-                            <input type="checkbox" />
+                            <input class="checkBx" type="checkbox" />
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -238,6 +238,11 @@
                     element.classList.add("clicked3");
                 });
 
+                const ppchange = document.querySelectorAll(".pp");
+                ppchange.forEach(element => { 
+                    element.classList.add("clicked4");
+                });
+
                 const elements4 = document.querySelectorAll(".header");
                 elements4.forEach(element => { 
                     element.classList.add("clicked2");
@@ -274,6 +279,11 @@
                     element.classList.remove("clicked3");
                 });
 
+                const ppchange = document.querySelectorAll(".pp");
+                ppchange.forEach(element => { 
+                    element.classList.remove("clicked4");
+                });
+
                 const elements4 = document.querySelectorAll(".header");
                 elements4.forEach(element => { 
                     element.classList.remove("clicked2");
@@ -288,21 +298,47 @@
         }
 
         //For the active and inactive
-        // function active() {
-        //     let activee = document.getElementById('hide-inactive');
-        //     document.querySelectorAll(".hide-inactive").forEach(button => {
-        //         button.addEventListener("click", function() {
-        //         this.parentElement.style.display = "none"; // Hides the item
+        function showAll() {
+            let extens = document.querySelectorAll(".box");
+            extens.forEach(ext => {
+                ext.style.display = "grid";                
+            });
+        }
+        function active() {
+            let checkBox = document.querySelectorAll(".checkBx");
+            checkBox.forEach(box => {
+                if (!box.checked) {
+                    box.closest(".box").style.display = "none";
+                }
+                if (box.checked) {
+                    box.closest(".box").style.display = "grid";
+                }
+            });
+        }
+        function inactive() {
+            let checkBox = document.querySelectorAll(".checkBx");
+            checkBox.forEach(box => {
+                if (box.checked) {
+                    box.closest(".box").style.display = "none";
+                }
+                if (!box.checked) {
+                    box.closest(".box").style.display = "grid";
+                }
+            });
+        }
+        
+        //for the remove button
+        // function remove() {
+        //     let remoButt = document.querySelectorAll(".butt3");
+        //     remoButt.forEach(box => {
+        //         this.closest(".box").style.display = "none";
         //     });
-        // });
         // }
-        // function inactive() {
-        //     document.querySelectorAll(".hide-active").forEach(button => {
-        //         button.addEventListener("click", function() {
-        //         this.parentElement.style.display = "none"; // Hides the item
-        //     });
-        // });
-        // }
+        document.querySelectorAll(".butt3").forEach(button => {
+            button.addEventListener("click", function() {
+                this.closest(".box").remove(); // Hides only the clicked item's box
+            });
+        });
     </script>
 </body>
 </html>

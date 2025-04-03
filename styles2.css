@@ -8,7 +8,8 @@
 
 
 body {
-    background: linear-gradient(rgb(7, 0, 31),rgb(0, 3, 100) );
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(7, 0, 31),rgb(0, 3, 100) );
     margin: 0px;
     padding: 30px 120px;
     font-family: 'NotoSans';
@@ -22,6 +23,9 @@ body {
     justify-content: space-between;
     padding: 10px 25px;
     border-radius: 20px;
+}
+#img1 {
+    justify-self: center;
 }
 .butt1 {
     background-color: rgb(47, 52, 69);
@@ -63,6 +67,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    margin: 10px 0px;
+}
+.Exlist {
+    font-size: 25px;
+    margin: 0px;
+    align-self: center;
+}
+.buttons {
+    align-self: center;
 }
 .butt2 {
     background-color: rgb(47, 52, 69);
@@ -70,6 +83,7 @@ body {
     border: none;
     padding: 10px;
     color: whitesmoke;
+    font-size: 17px;
 }
 
 .bod-bod {
@@ -77,6 +91,7 @@ body {
     flex-flow: row wrap;
     row-gap: 20px;
     column-gap: 20px;
+    justify-content: center;
 }
 .box {
     display: grid;
@@ -108,8 +123,9 @@ body {
     margin: 0px;
 }
 .pp {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 3px;
+    color: rgb(195, 195, 195);
 }
 .butt3 {
     grid-area: butt3;
@@ -173,7 +189,7 @@ body {
 
 /* clicking whatnot */
 .clicked1 {
-    background-color: rgb(222, 236, 255); /* New color when clicked */
+    background-color: rgb(173, 196, 227); /* New color when clicked */
 }
 .clicked2 {
     background-color: rgb(222, 236, 255);
@@ -189,4 +205,96 @@ body {
 }
 .clickedbg {
     background-color: rgb(173, 196, 227)
+}
+
+/* Media Query */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 30px 70px;
+    }
+    .bod-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .Exlist {
+        font-size: 20px;
+    }
+    #img1 {
+        width: 70%;
+        height: 70%;
+    }
+    .butt1 {
+        padding: 5px;
+    }
+    .butt2 {
+        font-size: 12px;
+    }
+    .img3 {
+        width: 70%;
+        height: 70%;
+    }
+    .h55 {
+        font-size: 15px;
+    }
+    .pp {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 700px) {
+    body {
+        padding: 30px 90px;
+    }
+    .bod-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .Exlist {
+        font-size: 22px;
+    }
+    #img1 {
+        width: 70%;
+        height: 70%;
+    }
+    .butt1 {
+        padding: 5px;
+    }
+    .butt2 {
+        font-size: 14px;
+    }
+    .h55 {
+        font-size: 16px;
+    }
+    .pp {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 900px) {
+    body {
+        padding: 30px 100px;
+    }
+    .bod-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .Exlist {
+        font-size: 24px;
+    }
+    .butt1 {
+        padding: 5px;
+    }
+    .butt2 {
+        font-size: 15px;
+    }
+    .h55 {
+        font-size: 17px;
+    }
+    .pp {
+        font-size: 12px;
+    }
 }
