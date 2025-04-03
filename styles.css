@@ -1,0 +1,48 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient( to bottom, rgb(120, 188, 248), rgb(252, 135, 201));
+}
+
+h1 {
+    font-weight: bold;
+    color: black;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 70%;
+    margin-right: 15px;
+}
+
+.iwords {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.link1 {
+    width: 250px;
+    background: linear-gradient(rgb(18, 62, 100), rgb(80, 9, 49));
+    border-radius: 25px;
+    border:rgb(13, 37, 63) 3px solid;
+    padding: 20px;
+    align-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.link1:hover {
+    background: linear-gradient(rgb(2, 134, 249), rgb(250, 3, 143));
+    border:rgb(2, 134, 249) 3px solid;
+}
